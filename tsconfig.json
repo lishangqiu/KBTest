@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "rootDir": "src",
+      "outDir": "js_compile",
+      "module": "es6",
+      "target": "ES2017",
+      "allowJs": true,
+      "strict": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "include": [
+      "src/**/*"
+    ],
+}
