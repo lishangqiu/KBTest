@@ -2,3 +2,50 @@ html,
 body {
     height: 100%;
 }
+
+nav {
+    background-color: #26445a !important;
+    border-color: #26445a !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    margin: 0px !important;
+}
+.navbar a{
+    color: #EEFBFB !important;
+}
+.navbar-header a{
+    font-size: 1.45em !important;
+}
+
+.nav >li > a:hover, .nav > li > a:focus{
+    background-color: #335369 !important;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover 
+{
+  background-color: unset !important;
+}
+
+.nav-item{
+    background-color: #26445a !important;
+    font-size: 1.23em !important;
+    background-image: none !important;
+    box-shadow: none;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+
